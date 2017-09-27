@@ -21,7 +21,7 @@ rm -rf solas-container.git
 
 # What to do next?
 
-- You should configure CI/CD by following the instructions for [GitHub](https://github.com/samsung-cnct/solas-container/blob/master/docs/github.md), [Jenkins](https://github.com/samsung-cnct/solas-container/blob/master/docs/jenkins.md), and [Quay](https://github.com/samsung-cnct/solas-container/blob/master/docs/quay.md).
+- You should configure CI/CD by following the instructions for [GitHub](https://github.com/samsung-cnct/template-chart/blob/master/docs/github.md), [Jenkins](https://github.com/samsung-cnct/template-chart/blob/master/docs/jenkins.md), and [Quay](https://github.com/samsung-cnct/template-chart/blob/master/docs/quay.md).
 
 - You may want to update the teams [Slack notifications](https://samsung-cnct.slack.com/apps/search?q=github) to notify developers of PR and issue activiy. To do this you will need [Admin Privileges](https://help.github.com/articles/repository-permission-levels-for-an-organization/). To ensure that you are not the only one who can maintain these integrations, it is recommended that you grant a GitHub Team (e.g. `commontools`) permissions and not a single individual contributor.
 
