@@ -25,6 +25,7 @@ podTemplate(label: "${project_name}", containers: [
         }
         // build new version of kraken-tools image on 'docker' container
         stage('Build') {
+          kubesh "docker version"
           kubesh "docker build -t ${project_name}:${env.JOB_BASE_NAME}.${env.BUILD_ID} ."
         }
 
